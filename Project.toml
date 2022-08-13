@@ -3,6 +3,12 @@ uuid = "7b1d0a8f-ece6-4bf3-a419-6aae1f10a90f"
 authors = ["Nick Sexson nick@nicksexson.com"]
 version = "0.1.0"
 
+[deps]
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+
 [compat]
 julia = "1"
 
