@@ -1,6 +1,6 @@
-# SCRAM
+# SCRAM.jl
 
-SCRAM.jl is a simple package for Salted Challenge Response Authentication Mechanism (SCRAM). For more informatioon
+SCRAM.jl is a simple package for Salted Challenge Response Authentication Mechanism (SCRAM). For more information
 on SCRAM see here [SCRAM RFC 5802](https://www.rfc-editor.org/rfc/rfc5802).
 
 SCRAM.jl is a "bring your own string" implementation. That is to say, you are responsible for extracting the necessary components from each
