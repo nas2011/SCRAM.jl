@@ -26,7 +26,7 @@ Usage would look something like this:
 
     # Construct and send client first request
 
-    clientFirst = clientFirst(username)   # "n,,n=user,r=rOprNGfwEbeRWgbNEkqO"
+    clientFirst = clientFirstString(username)   # "n,,n=user,r=rOprNGfwEbeRWgbNEkqO"
 
     r1 = clientFirstRequest(url,clientFirst,serverHello) # HTTP.Messages.Response object from which you will extract your string of interest 
 
